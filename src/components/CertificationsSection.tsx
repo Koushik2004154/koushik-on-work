@@ -6,31 +6,45 @@ import { Award, ExternalLink } from 'lucide-react';
 export const CertificationsSection = () => {
   const certifications = [
     {
-      name: "AWS Certified Developer - Associate",
-      issuer: "Amazon Web Services",
-      date: "2023",
-      credentialId: "AWS-123456789",
+      name: "Certified AI Builder",
+      issuer: "Airtribe",
+      date: "2025",
+      credentialId: "AIB-2025-001",
       verifyUrl: "#"
     },
     {
-      name: "Google Cloud Professional Developer",
-      issuer: "Google Cloud",
-      date: "2023",
-      credentialId: "GCP-987654321",
+      name: "Google Analytics Certificate",
+      issuer: "Google",
+      date: "Jul 2025",
+      credentialId: "GA-789456123",
       verifyUrl: "#"
     },
     {
-      name: "Meta React Developer Certificate",
-      issuer: "Meta",
-      date: "2022",
-      credentialId: "META-456789123",
+      name: "Deloitte Technology Simulation",
+      issuer: "Deloitte",
+      date: "Jul 2025",
+      credentialId: "DTS-456789123",
       verifyUrl: "#"
     },
     {
-      name: "MongoDB Certified Developer",
-      issuer: "MongoDB University",
-      date: "2022",
-      credentialId: "MONGO-789123456",
+      name: "Deloitte Data Analytics Simulation",
+      issuer: "Deloitte",
+      date: "Jul 2025",
+      credentialId: "DDAS-789123456",
+      verifyUrl: "#"
+    },
+    {
+      name: "Accenture Software Engineering Simulation",
+      issuer: "Accenture",
+      date: "Jul 2025",
+      credentialId: "ASES-123456789",
+      verifyUrl: "#"
+    },
+    {
+      name: "Accenture Tech Consulting Simulation",
+      issuer: "Accenture",
+      date: "Jul 2025",
+      credentialId: "ATCS-987654321",
       verifyUrl: "#"
     }
   ];
@@ -38,15 +52,15 @@ export const CertificationsSection = () => {
   return (
     <section id="certifications" className="py-20 bg-secondary/5">
       <div className="container mx-auto px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Certifications</h2>
             <p className="text-xl text-muted-foreground">
-              Professional certifications validating expertise in various technologies.
+              Professional certifications validating expertise in AI, consulting, and technology.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {certifications.map((cert, index) => (
               <Card key={index} className="hover:shadow-lg transition-shadow duration-300">
                 <CardContent className="p-6">

@@ -7,23 +7,23 @@ export const AboutSection = () => {
   const highlights = [
     {
       icon: Code,
-      title: "Technical Excellence",
-      description: "Proficient in modern web technologies and frameworks"
+      title: "AI/ML Expertise",
+      description: "Specialized in NLP, system design, and backend automation"
     },
     {
       icon: Users,
       title: "Team Leadership",
-      description: "Experience leading development teams and mentoring juniors"
+      description: "Led 50+ member team at CosMitra and launched 30+ AI products"
     },
     {
       icon: Lightbulb,
       title: "Innovation",
-      description: "Passionate about exploring new technologies and solutions"
+      description: "Founder of CosMitra with expertise in AI-first tools and platforms"
     },
     {
       icon: Target,
-      title: "Results Driven",
-      description: "Focused on delivering high-quality, scalable solutions"
+      title: "Certified Builder",
+      description: "Certified AI Builder with hands-on experience in automation"
     }
   ];
 
@@ -34,8 +34,8 @@ export const AboutSection = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">About Me</h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              A passionate full-stack engineer with expertise in both traditional development 
-              and modern no-code solutions, helping businesses scale through technology.
+              Full-stack engineer and no-code expert with 3+ years of experience in AI/ML, 
+              automation, and low-code platforms.
             </p>
           </div>
 
@@ -43,18 +43,20 @@ export const AboutSection = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-6">My Journey</h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                With a strong foundation in computer science and years of hands-on experience, 
-                I've evolved from a curious developer into a versatile engineer who bridges 
-                the gap between complex technical solutions and business needs.
+                Full-stack engineer and no-code expert with 3+ years of experience in AI/ML, 
+                automation, and low-code platforms. Founder of CosMitra, having launched 30+ AI tools 
+                using platforms like Bolt.new, Cursor, Lovable.ai, and Replicate.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                My expertise spans across full-stack development, cloud technologies, 
-                and no-code platforms, allowing me to choose the right tool for every challenge. 
-                I believe in clean code, scalable architecture, and user-centric design.
+                Certified AI Builder from Airtribe with hands-on expertise in NLP, system design, 
+                and backend automation pipelines. Based in Bengaluru, India, I specialize in 
+                creating scalable AI-first solutions that bridge the gap between complex technical 
+                implementations and business needs.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                When I'm not coding, you'll find me exploring new technologies, 
-                contributing to open source projects, or sharing knowledge with the developer community.
+                My passion lies in exploring cutting-edge technologies and building innovative 
+                solutions that make a real impact. Through CosMitra, I've successfully led teams 
+                and delivered products that leverage the latest in AI and automation.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-4">

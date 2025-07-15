@@ -6,18 +6,12 @@ import { GraduationCap, Calendar } from 'lucide-react';
 export const EducationSection = () => {
   const education = [
     {
-      degree: "Bachelor of Technology in Computer Science - Artificial Intelligence and Machine Learning",
+      degree: "B.Tech in Computer Science (AI & ML)",
       institution: "Nagarjuna College of Engineering and Technology",
+      location: "Bengaluru, India",
       period: "2022 - 2026",
-      description: "Specialized in AI/ML algorithms, data structures, software engineering, and machine learning applications. Currently pursuing advanced coursework in deep learning and artificial intelligence.",
-      achievements: ["Current CGPA: 8.7/10", "AI/ML Specialization", "Active in Tech Communities"]
-    },
-    {
-      degree: "Full Stack Web Development Certification",
-      institution: "Online Platform",
-      period: "2023",
-      description: "Comprehensive certification covering modern web technologies, frameworks, and development practices.",
-      achievements: ["100% Course Completion", "Top 5% Performance", "Capstone Project Recognition"]
+      description: "Specialized in Artificial Intelligence and Machine Learning with focus on NLP, system design, and automation pipelines. Actively involved in AI research and practical applications.",
+      achievements: ["AI & ML Specialization", "Active in Tech Communities", "Research Projects in NLP"]
     }
   ];
 
@@ -28,7 +22,7 @@ export const EducationSection = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Education</h2>
             <p className="text-xl text-muted-foreground">
-              Building a strong foundation through continuous learning and academic excellence.
+              Building a strong foundation in AI/ML and computer science.
             </p>
           </div>
 
@@ -50,7 +44,8 @@ export const EducationSection = () => {
                           {edu.period}
                         </div>
                       </div>
-                      <h4 className="text-lg text-primary mb-3">{edu.institution}</h4>
+                      <h4 className="text-lg text-primary mb-2">{edu.institution}</h4>
+                      <p className="text-muted-foreground mb-1">{edu.location}</p>
                       <p className="text-muted-foreground mb-4">{edu.description}</p>
                       <div className="flex flex-wrap gap-2">
                         {edu.achievements.map((achievement, i) => (

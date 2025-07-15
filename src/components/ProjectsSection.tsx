@@ -7,40 +7,49 @@ import { ExternalLink, Github } from 'lucide-react';
 export const ProjectsSection = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and PostgreSQL. Features include user authentication, payment processing, and admin dashboard.",
+      title: "Local Livin",
+      description: "AI-powered PG rental platform with dynamic pricing and smart search. Finalist at FKCCI 2025, featuring advanced ML algorithms for property matching.",
       image: "/placeholder.svg",
-      technologies: ["React", "Node.js", "PostgreSQL", "Stripe"],
+      technologies: ["AI/ML", "React", "Node.js", "Python"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
     },
     {
-      title: "Task Management App",
-      description: "A collaborative task management application built with Vue.js and Firebase. Real-time updates and team collaboration features.",
+      title: "Career Development Hub",
+      description: "Comprehensive platform with resume scoring, ATS builder, and job matcher using NLP and automation for career advancement.",
       image: "/placeholder.svg",
-      technologies: ["Vue.js", "Firebase", "Vuetify"],
+      technologies: ["NLP", "Python", "React", "Automation"],
       liveUrl: "#",
       githubUrl: "#",
       featured: true
     },
     {
-      title: "Analytics Dashboard",
-      description: "Business intelligence dashboard with data visualization and reporting capabilities. Built using React and D3.js.",
+      title: "Business WhatsApp Chat Analyzer",
+      description: "NLP-based insight engine that processes chat logs to extract key metrics like sales trends, engagement patterns, and customer insights.",
       image: "/placeholder.svg",
-      technologies: ["React", "D3.js", "Python", "FastAPI"],
+      technologies: ["NLP", "Python", "Data Analytics", "ML"],
+      liveUrl: "#",
+      githubUrl: "#",
+      featured: true
+    },
+    {
+      title: "KisanMitra",
+      description: "ML assistant for farmers based on weather data and crop analysis, providing intelligent recommendations for agricultural decisions.",
+      image: "/placeholder.svg",
+      technologies: ["Machine Learning", "Python", "Data Science"],
       liveUrl: "#",
       githubUrl: "#",
       featured: false
     },
     {
-      title: "No-Code Automation",
-      description: "Automated workflow solution using Zapier and Airtable for small businesses to streamline their operations.",
+      title: "CosMitra Website",
+      description: "A comprehensive collection of over 30 AI tools and products developed by the founder, showcasing the complete AI ecosystem.",
       image: "/placeholder.svg",
-      technologies: ["Zapier", "Airtable", "Webflow"],
-      liveUrl: "#",
+      technologies: ["AI Tools", "React", "Node.js", "Automation"],
+      liveUrl: "https://CosMitra.b12sites.com",
       githubUrl: "#",
-      featured: false
+      featured: true
     }
   ];
 
@@ -51,7 +60,7 @@ export const ProjectsSection = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Featured Projects</h2>
             <p className="text-xl text-muted-foreground">
-              A showcase of my recent work and technical capabilities.
+              Innovative AI/ML solutions and automation tools that make a real impact.
             </p>
           </div>
 

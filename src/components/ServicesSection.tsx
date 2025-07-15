@@ -1,33 +1,33 @@
 
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Code, Smartphone, Cloud, Zap } from 'lucide-react';
+import { Brain, Cog, Zap, BarChart } from 'lucide-react';
 
 export const ServicesSection = () => {
   const services = [
     {
-      icon: Code,
-      title: "Full-Stack Development",
-      description: "Complete web application development from frontend to backend, including database design and API development.",
-      features: ["Custom Web Applications", "API Development", "Database Design", "Performance Optimization"]
+      icon: Brain,
+      title: "AI/ML Web Product Development",
+      description: "End-to-end development of AI-powered web applications with machine learning capabilities, NLP integration, and intelligent automation.",
+      features: ["Custom AI Models", "NLP Integration", "ML Pipeline Development", "AI-First Architecture"]
     },
     {
-      icon: Smartphone,
-      title: "Responsive Web Design",
-      description: "Modern, mobile-first responsive designs that work seamlessly across all devices and screen sizes.",
-      features: ["Mobile-First Design", "Cross-Browser Compatibility", "UI/UX Optimization", "Accessibility Compliance"]
-    },
-    {
-      icon: Cloud,
-      title: "Cloud Solutions",
-      description: "Scalable cloud infrastructure setup and deployment using AWS, Google Cloud, and other platforms.",
-      features: ["Cloud Migration", "Infrastructure Setup", "Auto-scaling Solutions", "Security Implementation"]
+      icon: Cog,
+      title: "Backend Automation Pipelines",
+      description: "Scalable backend systems with automated workflows, data processing pipelines, and intelligent automation solutions.",
+      features: ["Workflow Automation", "Data Pipeline Design", "API Development", "System Integration"]
     },
     {
       icon: Zap,
-      title: "No-Code Solutions",
-      description: "Rapid prototyping and development using no-code platforms for quick turnaround and cost-effective solutions.",
-      features: ["Rapid Prototyping", "Workflow Automation", "CMS Development", "Integration Solutions"]
+      title: "Low-Code/No-Code AI Tools",
+      description: "Rapid development using no-code platforms like Bolt.new, Cursor, and Lovable.ai for quick turnaround and cost-effective solutions.",
+      features: ["Rapid Prototyping", "Platform Integration", "AI Tool Development", "Quick Deployment"]
+    },
+    {
+      icon: BarChart,
+      title: "Custom Dashboards & Analytics",
+      description: "Interactive dashboards and data visualization solutions using Power BI, Tableau, and custom-built analytics platforms.",
+      features: ["Data Visualization", "Business Intelligence", "Real-time Analytics", "Custom Reporting"]
     }
   ];
 
@@ -38,7 +38,7 @@ export const ServicesSection = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Services</h2>
             <p className="text-xl text-muted-foreground">
-              Comprehensive development services to bring your ideas to life.
+              Comprehensive AI/ML development and automation services.
             </p>
           </div>
 

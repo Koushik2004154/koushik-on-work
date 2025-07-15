@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Linkedin, Globe } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 export const ContactSection = () => {
@@ -25,13 +25,11 @@ export const ContactSection = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Here you would typically send the form data to your backend
     console.log('Form submitted:', formData);
     toast({
       title: "Message Sent!",
       description: "Thank you for your message. I'll get back to you soon.",
     });
-    // Reset form
     setFormData({ name: '', email: '', subject: '', message: '' });
   };
 
@@ -39,20 +37,32 @@ export const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "koushik@example.com",
-      href: "mailto:koushik@example.com"
+      value: "Cosmitra09@gmail.com",
+      href: "mailto:Cosmitra09@gmail.com"
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+91 98765 43210",
-      href: "tel:+919876543210"
+      value: "+91-7795396712",
+      href: "tel:+917795396712"
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "Bangalore, India",
+      value: "Bengaluru, India",
       href: "#"
+    },
+    {
+      icon: Linkedin,
+      label: "LinkedIn",
+      value: "Connect on LinkedIn",
+      href: "#"
+    },
+    {
+      icon: Globe,
+      label: "CosMitra",
+      value: "CosMitra.b12sites.com",
+      href: "https://CosMitra.b12sites.com"
     }
   ];
 
@@ -63,7 +73,7 @@ export const ContactSection = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Get In Touch</h2>
             <p className="text-xl text-muted-foreground">
-              Let's discuss your project and how I can help bring your ideas to life.
+              Let's discuss your AI/ML project and how I can help bring your ideas to life.
             </p>
           </div>
 
@@ -72,9 +82,9 @@ export const ContactSection = () => {
             <div>
               <h3 className="text-2xl font-semibold mb-8">Let's Start a Conversation</h3>
               <p className="text-muted-foreground mb-8 leading-relaxed">
-                I'm always interested in new opportunities and exciting projects. 
-                Whether you have a specific project in mind or just want to explore 
-                possibilities, I'd love to hear from you.
+                I'm always interested in new opportunities and exciting AI/ML projects. 
+                Whether you need help with automation, building AI tools, or developing 
+                custom solutions, I'd love to hear from you.
               </p>
 
               <div className="space-y-6">
@@ -141,7 +151,7 @@ export const ContactSection = () => {
                       value={formData.subject}
                       onChange={handleInputChange}
                       required
-                      placeholder="Project Discussion"
+                      placeholder="AI/ML Project Discussion"
                     />
                   </div>
                   
@@ -156,7 +166,7 @@ export const ContactSection = () => {
                       onChange={handleInputChange}
                       required
                       rows={6}
-                      placeholder="Tell me about your project..."
+                      placeholder="Tell me about your AI/ML project requirements..."
                     />
                   </div>
                   

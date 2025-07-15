@@ -6,43 +6,46 @@ import { Briefcase, Calendar, MapPin } from 'lucide-react';
 export const ExperienceSection = () => {
   const experiences = [
     {
-      role: "Senior Full-Stack Engineer",
-      company: "Tech Innovation Corp",
+      role: "Founder",
+      company: "CosMitra",
+      location: "Bengaluru, India",
+      period: "Dec 2024 - Present",
+      description: "Leading the development of AI-first tools and platforms, building scalable solutions for automation and machine learning.",
+      achievements: [
+        "Led 50+ member team across multiple projects",
+        "Launched 30+ AI products and tools",
+        "Focused on scalable AI-first tool development",
+        "Built comprehensive AI product ecosystem"
+      ],
+      technologies: ["AI/ML", "Python", "React", "Node.js", "Automation"]
+    },
+    {
+      role: "Freelancer",
+      company: "Outlier.ai",
       location: "Remote",
-      period: "2023 - Present",
-      description: "Leading development of scalable web applications and mentoring junior developers.",
+      period: "Mar 2025 - Present",
+      description: "Developing ML dashboards and internal distributed systems for advanced data insights and analytics.",
       achievements: [
-        "Built microservices architecture serving 100K+ users",
-        "Implemented CI/CD pipelines reducing deployment time by 60%",
-        "Led team of 5 developers on multiple projects"
+        "Built ML dashboards for data visualization",
+        "Developed internal distributed systems",
+        "Implemented data insights pipelines",
+        "Optimized system performance and scalability"
       ],
-      technologies: ["React", "Node.js", "PostgreSQL", "AWS", "Docker"]
+      technologies: ["Machine Learning", "Python", "Data Analytics", "System Design"]
     },
     {
-      role: "Full-Stack Developer",
-      company: "Digital Solutions Ltd",
-      location: "Bangalore, India",
-      period: "2022 - 2023",
-      description: "Developed and maintained multiple client projects using modern web technologies.",
+      role: "AI Intern",
+      company: "Technosonic Solutions",
+      location: "Bengaluru, India",
+      period: "Apr 2025 - Jul 2025",
+      description: "Developed ML APIs and integrated backend automation workflows for enterprise solutions.",
       achievements: [
-        "Delivered 15+ client projects on time and within budget",
-        "Reduced application load time by 40% through optimization",
-        "Integrated third-party APIs and payment gateways"
+        "Developed robust ML APIs for production use",
+        "Integrated backend automation workflows",
+        "Optimized API performance and reliability",
+        "Collaborated on enterprise-level solutions"
       ],
-      technologies: ["Vue.js", "Python", "MongoDB", "GCP", "Kubernetes"]
-    },
-    {
-      role: "Frontend Developer Intern",
-      company: "StartupX",
-      location: "Mumbai, India",
-      period: "2021 - 2022",
-      description: "Contributed to the development of user interfaces and gained hands-on experience.",
-      achievements: [
-        "Developed responsive web components",
-        "Collaborated with design team on UI/UX improvements",
-        "Participated in agile development processes"
-      ],
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Firebase"]
+      technologies: ["ML APIs", "Python", "Backend Development", "Automation"]
     }
   ];
 
@@ -53,7 +56,7 @@ export const ExperienceSection = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">Experience</h2>
             <p className="text-xl text-muted-foreground">
-              Professional journey through various roles and challenging projects.
+              Professional journey in AI/ML, automation, and product development.
             </p>
           </div>
 
