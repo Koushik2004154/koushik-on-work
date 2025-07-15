@@ -6,17 +6,17 @@ import { GraduationCap, Calendar } from 'lucide-react';
 export const EducationSection = () => {
   const education = [
     {
-      degree: "Bachelor of Technology in Computer Science",
-      institution: "University Name",
-      period: "2018 - 2022",
-      description: "Specialized in software engineering, algorithms, and data structures. Graduated with honors.",
-      achievements: ["CGPA: 8.5/10", "Dean's List", "Best Project Award"]
+      degree: "Bachelor of Technology in Computer Science - Artificial Intelligence and Machine Learning",
+      institution: "Nagarjuna College of Engineering and Technology",
+      period: "2022 - 2026",
+      description: "Specialized in AI/ML algorithms, data structures, software engineering, and machine learning applications. Currently pursuing advanced coursework in deep learning and artificial intelligence.",
+      achievements: ["Current CGPA: 8.7/10", "AI/ML Specialization", "Active in Tech Communities"]
     },
     {
       degree: "Full Stack Web Development Certification",
       institution: "Online Platform",
-      period: "2022",
-      description: "Comprehensive certification covering modern web technologies and frameworks.",
+      period: "2023",
+      description: "Comprehensive certification covering modern web technologies, frameworks, and development practices.",
       achievements: ["100% Course Completion", "Top 5% Performance", "Capstone Project Recognition"]
     }
   ];
