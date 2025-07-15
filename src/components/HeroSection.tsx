@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
+import { ArrowDown, Github, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Hero3DAnimation } from './Hero3DAnimation';
 
@@ -24,11 +24,11 @@ export const HeroSection = () => {
             <div className="animate-fade-in">
               {/* Profile Picture */}
               <div className="flex justify-center lg:justify-start mb-6">
-                <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-primary/20 shadow-lg">
+                <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-primary/20 shadow-lg transform transition-all duration-500 hover:scale-110 hover:shadow-2xl hover:border-primary/40 animate-pulse">
                   <img
-                    src="https://i.postimg.cc/ZRDjhwgN/Whats-App-Image-2025-05-09-at-13-19-58-24e49e31.jpg"
+                    src="https://i.postimg.cc/sg7wk9s6/blazer.jpg"
                     alt="Koushik R"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                   />
                 </div>
               </div>
@@ -61,12 +61,6 @@ export const HeroSection = () => {
                 className="p-3 rounded-full border border-border hover:border-primary transition-colors duration-300 hover:scale-110 transform"
               >
                 <Github size={24} />
-              </a>
-              <a 
-                href="https://www.linkedin.com/in/r-koushik-5800a8375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
-                className="p-3 rounded-full border border-border hover:border-primary transition-colors duration-300 hover:scale-110 transform"
-              >
-                <Linkedin size={24} />
               </a>
               <a 
                 href="mailto:cosmitra09@gmail.com" 
