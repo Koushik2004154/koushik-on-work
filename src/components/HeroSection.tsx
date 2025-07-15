@@ -22,6 +22,17 @@ export const HeroSection = () => {
           {/* Left side - Text content */}
           <div className="text-center lg:text-left">
             <div className="animate-fade-in">
+              {/* Profile Picture */}
+              <div className="flex justify-center lg:justify-start mb-6">
+                <div className="w-32 h-32 rounded-full overflow-hidden border-4 border-primary/20 shadow-lg">
+                  <img
+                    src="https://i.postimg.cc/ZRDjhwgN/Whats-App-Image-2025-05-09-at-13-19-58-24e49e31.jpg"
+                    alt="Koushik R"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+              
               <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
                 Koushik R
               </h1>
@@ -52,13 +63,13 @@ export const HeroSection = () => {
                 <Github size={24} />
               </a>
               <a 
-                href="#" 
+                href="https://www.linkedin.com/in/r-koushik-5800a8375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
                 className="p-3 rounded-full border border-border hover:border-primary transition-colors duration-300 hover:scale-110 transform"
               >
                 <Linkedin size={24} />
               </a>
               <a 
-                href="#" 
+                href="mailto:cosmitra09@gmail.com" 
                 className="p-3 rounded-full border border-border hover:border-primary transition-colors duration-300 hover:scale-110 transform"
               >
                 <Mail size={24} />

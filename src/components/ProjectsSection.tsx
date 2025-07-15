@@ -11,7 +11,7 @@ export const ProjectsSection = () => {
       description: "AI-powered PG rental platform with dynamic pricing and smart search. Finalist at FKCCI 2025, featuring advanced ML algorithms for property matching.",
       image: "/placeholder.svg",
       technologies: ["AI/ML", "React", "Node.js", "Python"],
-      liveUrl: "#",
+      liveUrl: "https://preview--local-livin-listings-manager.lovable.app/",
       githubUrl: "#",
       featured: true
     },
@@ -20,7 +20,7 @@ export const ProjectsSection = () => {
       description: "Comprehensive platform with resume scoring, ATS builder, and job matcher using NLP and automation for career advancement.",
       image: "/placeholder.svg",
       technologies: ["NLP", "Python", "React", "Automation"],
-      liveUrl: "#",
+      liveUrl: "https://cosmitrabot.netlify.app/",
       githubUrl: "#",
       featured: true
     },
@@ -38,7 +38,7 @@ export const ProjectsSection = () => {
       description: "ML assistant for farmers based on weather data and crop analysis, providing intelligent recommendations for agricultural decisions.",
       image: "/placeholder.svg",
       technologies: ["Machine Learning", "Python", "Data Science"],
-      liveUrl: "#",
+      liveUrl: "https://studio.firebase.google.com/studio-1167326285",
       githubUrl: "#",
       featured: false
     },

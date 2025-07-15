@@ -37,8 +37,8 @@ export const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "Cosmitra09@gmail.com",
-      href: "mailto:Cosmitra09@gmail.com"
+      value: "cosmitra09@gmail.com",
+      href: "mailto:cosmitra09@gmail.com"
     },
     {
       icon: Phone,
@@ -56,7 +56,7 @@ export const ContactSection = () => {
       icon: Linkedin,
       label: "LinkedIn",
       value: "Connect on LinkedIn",
-      href: "#"
+      href: "https://www.linkedin.com/in/r-koushik-5800a8375?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
     },
     {
       icon: Globe,
