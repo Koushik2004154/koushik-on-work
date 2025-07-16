@@ -1,8 +1,8 @@
-
 import React from 'react';
 import { ArrowDown, Github, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Hero3DAnimation } from './Hero3DAnimation';
+import { Profile3DAnimation } from './Profile3DAnimation';
 
 export const HeroSection = () => {
   const scrollToNext = () => {
@@ -22,14 +22,18 @@ export const HeroSection = () => {
           {/* Left side - Text content */}
           <div className="text-center lg:text-left">
             <div className="animate-fade-in">
-              {/* Profile Picture */}
-              <div className="flex justify-center lg:justify-start mb-6">
-                <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-primary/20 shadow-lg transform transition-all duration-500 hover:scale-110 hover:shadow-2xl hover:border-primary/40 animate-pulse">
+              {/* Profile Picture with 3D animations */}
+              <div className="flex justify-center lg:justify-start mb-6 relative">
+                <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-primary/20 shadow-lg transform transition-all duration-500 hover:scale-110 hover:shadow-2xl hover:border-primary/40 animate-pulse relative z-20">
                   <img
                     src="https://i.postimg.cc/sg7wk9s6/blazer.jpg"
                     alt="Koushik R"
                     className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                   />
+                </div>
+                {/* 3D Animation overlay for profile */}
+                <div className="absolute inset-0 w-96 h-96 -translate-x-24 -translate-y-24 z-10">
+                  <Profile3DAnimation />
                 </div>
               </div>
               
