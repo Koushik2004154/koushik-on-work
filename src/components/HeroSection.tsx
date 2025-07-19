@@ -31,7 +31,7 @@ export const HeroSection = () => {
               <div className="flex justify-center lg:justify-end mb-6 relative">
                 <div className="w-48 h-48 rounded-full overflow-hidden border-4 border-primary/20 shadow-lg transform transition-all duration-500 hover:scale-110 hover:shadow-2xl hover:border-primary/40 animate-pulse relative z-20">
                   <img
-                    src="https://i.postimg.cc/6Q6P828d/Whats-App-Image-2025-05-09-at-13-19-58-24e49e31.jpg"
+                    src="https://i.postimg.cc/mhxqkm9D/Whats-App-Image-2025-07-19-at-14-29-51-0ed21b47.jpg"
                     alt="Koushik R"
                     className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                   />
