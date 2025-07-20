@@ -12,6 +12,13 @@ export const HeroSection = () => {
     }
   };
 
+  const scrollToContact = () => {
+    const contactSection = document.querySelector('#contact');
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="home" className="min-h-screen h-screen flex items-center justify-center relative overflow-hidden">
       {/* Background gradient */}
@@ -50,7 +57,7 @@ export const HeroSection = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 animate-fade-in">
-              <Button size="lg" className="text-lg px-8">
+              <Button size="lg" className="text-lg px-8" onClick={scrollToContact}>
                 Get In Touch
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8">
